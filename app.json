@@ -75,4 +75,12 @@
         "value": "Hey, Iam a @op_arnav_singh bot to play music, not having time to chat with you.",
         "required": false
       }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "eco"
+      }
     }
+  }
+
