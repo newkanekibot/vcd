@@ -1,12 +1,10 @@
 FROM nikolaik/python-nodejs:python3.9-nodejs16
-
-RUN apt update && apt upgrade -y
-RUN apt install ffmpeg -y
-
-COPY requirements.txt /requirements.txt
-RUN cd /
+FROM nikolaik/python-nodejs:python3.9-nodejs18
+RUN apt-get update -y && apt-get upgrade -y \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+COPY . /app/
+WORKDIR /app/
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
-RUN mkdir /app
-WORKDIR /app
-COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
+CMD bash start
