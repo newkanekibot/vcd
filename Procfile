@@ -1,1 +1,1 @@
-Drone: python -m main
+eco: python -m main
