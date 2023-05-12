@@ -40,6 +40,9 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 19. `BITRATE` : Bitrate of audio (Not recommended to change).
 20. `FPS` : Fps of video to be played (Not recommended to change.)
 
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://telegram.dog/XTZ_HerokuBot?start=c3ViaW5wcy9WQ1BsYXllckJvdCBtYWlu)
 
 
 ## Requirements
