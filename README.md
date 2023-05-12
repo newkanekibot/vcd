@@ -42,8 +42,7 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://telegram.dog/XTZ_HerokuBot?start=c3ViaW5wcy9WQ1BsYXllckJvdCBtYWlu)
-
+<p><a href="https://heroku.com/deploy?template=https://github.com/newkanekibot/vcd"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ## Requirements
 - Python 3.8 or Higher.
