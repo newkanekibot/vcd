@@ -75,9 +75,14 @@
         "value": "Hey, Iam a @op_arnav_singh bot to play music, not having time to chat with you.",
         "required": false
       }
-    },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
+    }, 
+    "formation": {
+      "drone": {
+        "quantity": 1,
+        "size": "eco"
+      }
+    }
+  }
+
+
    
