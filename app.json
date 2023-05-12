@@ -77,7 +77,7 @@
       }
     }, 
     "formation": {
-      "eco": {
+      "worker": {
         "quantity": 1,
         "size": "eco"
       }
