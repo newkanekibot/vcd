@@ -77,7 +77,7 @@
       }
     }, 
     "formation": {
-      "drone": {
+      "eco": {
         "quantity": 1,
         "size": "eco"
       }
